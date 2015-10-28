@@ -1,6 +1,6 @@
 # Cyber Security: In Hacker's Mind
 
-Lecture notes, codes and references.
+Lecture slides, notes, codes and references.
 
 # Topics
 
