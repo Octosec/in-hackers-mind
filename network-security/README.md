@@ -2,7 +2,7 @@
 
 File | Description
 ---- | -----------
-[Services](services.md) | Some insecure services
+[Services](services.md) | Some service usages
 
 # References
 
