@@ -27,7 +27,7 @@ rsysinfo <target IP>
 
 ```bash
 smbclient -L //<target IP>
-``
+```
 
 ## FTP
 
