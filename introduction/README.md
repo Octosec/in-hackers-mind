@@ -18,6 +18,7 @@ File | Description
 * http://phrack.org/issues/68/19.html
 * http://phrack.org/issues/47/21.html
 * http://wiki.hamburg.ccc.de/index.php/ChaosVPN
+* http://wiki.hamburg.ccc.de/ChaosVPN:IPRanges
 * https://dn42.net/
 * http://anonet.org
 * https://freenetproject.org/
