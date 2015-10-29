@@ -1,6 +1,9 @@
 # Web Application Security
 
-* Fingerprinting
-* XSS, LFI, RFI, CSRF, SQLI attacks
-* Command injection attacks
-* Parameter tampering attacks
+File | Description
+---- | -----------
+[HTTP](http.md) | Http misc.
+
+# References
+
+* https://github.com/leebaird/discover/blob/master/notes/web-apps.txt
